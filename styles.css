@@ -1,0 +1,89 @@
+body {
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text', serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-weight: bold;
+    color:tomato;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+nav li {
+
+    border-radius: 1rem;
+    background-color: red;
+
+}
+
+
+section {
+    background-color: lightseagreen;
+    border-radius: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: auto;
+}
+
+.promo{
+    background-image: url('promo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+    justify-content: flex-start;
+
+}
+
+
+.info {
+    height: 15rem;
+    justify-content: center;
+}
+
+.one {
+    background-color: lightgreen;
+    border-radius: 1rem;
+    margin: 1rem;
+    flex-grow: 1;
+}
+
+.two {
+    background-color: aquamarine;
+    border-radius: 1rem;
+    margin: 1rem;
+    flex-grow: 2;
+
+}
+
+.three {
+    background-color: cadetblue;
+    border-radius: 1rem;
+    margin: 1rem;
+    flex-grow: 1;
+
+}
