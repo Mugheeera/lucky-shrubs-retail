@@ -78,6 +78,11 @@ section {
     flex-wrap: wrap;
 }
 
+.promo:hover {
+    border:solid orange;
+}
+
+
 .promo{
     background-image: url('promo.jpg');
     background-repeat: no-repeat;
@@ -97,6 +102,9 @@ section {
    
 }
 
+.info:hover {
+    border: solid red;
+}
 .info img {
     border-radius: 1rem;
     
